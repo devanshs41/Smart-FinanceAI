@@ -68,6 +68,7 @@ Using Voice Assistace message you can get your advise and can get summary of the
 
 **Converting to vectors and saving it**
    - Converted text to vector using FAISS class from langchain_community.vectorstores and then saved the data.
+   - FAISS (Facebook AI Similarity Search) is a library developed  to efficiently search for similar vectors in large datasets. It is widely used in various applications involving embeddings and vector search, such as similarity search, clustering, and nearest neighbor search.
 
 # **Creating a RAG Using LangChain and FAISS**
 - It creates a retriever using a vector store (`db1`). The retriever is configured for similarity search, enabling the retrieval of documents similar to a given query.
